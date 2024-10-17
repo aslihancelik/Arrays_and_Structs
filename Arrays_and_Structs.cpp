@@ -2,7 +2,8 @@
 //
 // This program tracks daily miles run by five marathon runners over a week.
 // It calculates total and average miles for each runner and outputs a formatted table
-// displaying their names, daily miles, total miles, and average miles.
+// displaying their names, daily miles, total miles, and average miles. Implementation
+// is done using a struct.
 // 
 // Programmer: Aslihan Celik
 //
