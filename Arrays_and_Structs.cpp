@@ -67,11 +67,11 @@ void outputResults(const Runner runners[NUM_RUNNERS]) {
         cout << setw(10) << runners[i].runnerName;
         for (int j = 0; j < NUM_DAYS; ++j) {
             // Print miles for each day
-            //cout << setw(12) << runners[i].milesRun[j];
             cout << setw(12) << fixed << setprecision(2) << runners[i].milesRun[j];
         }
         // Print total and average
-        cout << setw(12) << runners[i].totalMiles << setw(12) << runners[i].avgMiles << endl;
+        cout << setw(12) << fixed << setprecision(2) << runners[i].totalMiles
+            << setw(12) << fixed << setprecision(2) << runners[i].avgMiles << endl;
     }
 }
 
